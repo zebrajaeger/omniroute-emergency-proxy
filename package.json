@@ -1,0 +1,18 @@
+{
+  "name": "omniroute-emergency-proxy",
+  "version": "1.0.0",
+  "description": "Transparent OmniRoute reverse proxy with a surgical Responses SSE compatibility fix",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
